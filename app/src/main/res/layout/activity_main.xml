@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tp.pals.databasepractise.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_EnterDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Enter Details"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_EMP_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_EnterDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_EMP_EMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_EMP_NAME"
+        android:layout_alignStart="@+id/et_EMP_NAME"
+        android:layout_below="@+id/et_EMP_NAME"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Email ID"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/et_EMP_EMAIL"
+        android:layout_alignLeft="@+id/et_EMP_EMAIL"
+        android:layout_alignStart="@+id/et_EMP_EMAIL"
+        android:layout_alignRight="@+id/et_EMP_EMAIL"
+        android:layout_alignEnd="@+id/et_EMP_EMAIL" />
+
+    <Button
+        android:id="@+id/b_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/et_Delete"
+        android:layout_alignLeft="@+id/et_Delete"
+        android:layout_alignStart="@+id/et_Delete"
+        android:layout_alignRight="@+id/et_Delete"
+        android:layout_alignEnd="@+id/et_Delete" />
+
+    <Button
+        android:id="@+id/b_Database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DataBase"
+        android:layout_below="@+id/b_Delete"
+        android:layout_alignLeft="@+id/b_Delete"
+        android:layout_alignStart="@+id/b_Delete"
+        android:layout_marginTop="31dp"
+        android:layout_alignRight="@+id/b_Delete"
+        android:layout_alignEnd="@+id/b_Delete" />
+
+    <EditText
+        android:id="@+id/et_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b_Add"
+        android:layout_alignRight="@+id/b_Add"
+        android:layout_below="@+id/b_Add"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Enter ID to Delete"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>
+
