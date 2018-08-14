@@ -55,12 +55,12 @@ public class DataBase extends AppCompatActivity{
         //emp_dbview.setFocusable(true);
         //emp_dbview.setFocusableInTouchMode(true);
 
-        /*String emp_data = emp_dbview.getText().toString();
-        int startIndex = emp_dbview.getSelectionStart();
-        int endIndex = emp_dbview.getSelectionEnd();
+        /*String emp_data = emp_dbView.getText().toString();
+        int startIndex = emp_dbView.getSelectionStart();
+        int endIndex = emp_dbView.getSelectionEnd();
 
         int min = 0;
-        int max = emp_dbview.getText().length();
+        int max = emp_dbView.getText().length();
         min = Math.max(0, Math.min(startIndex, endIndex));
         max = Math.max(0, Math.max(startIndex, endIndex));
 
